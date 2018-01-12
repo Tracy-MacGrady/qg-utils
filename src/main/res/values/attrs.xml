@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeRefreshLayout">
+        <attr name="direction">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TitleBarView">
+        <attr name="title_textview_textsize" format="dimension" />
+        <attr name="title_textview_textcolor" format="color" />
+        <attr name="title_textview_textval" format="string" />
+        <attr name="left_show_textview" format="boolean" />
+        <attr name="lefttextview_textcolor" format="color" />
+        <attr name="lefttextview_textsize" format="dimension" />
+        <attr name="lefttextview_textval" format="string" />
+        <attr name="lefttextview_drawableleft" format="reference" />
+        <attr name="right_show_textview" format="boolean" />
+        <attr name="righttextview_textcolor" format="color" />
+        <attr name="righttextview_textsize" format="dimension" />
+        <attr name="righttextview_textval" format="string" />
+        <attr name="leftimage_src" format="reference" />
+        <attr name="rightimage_src" format="reference" />
+    </declare-styleable>
+</resources>
